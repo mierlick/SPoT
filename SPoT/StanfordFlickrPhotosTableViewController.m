@@ -1,0 +1,15 @@
+//
+//  StanfordFlickrPhotosTableViewController.m
+//  SPoT
+//
+//  Created by Matthew I Erlick on 4/2/13.
+//  Copyright (c) 2013 Matthew I Erlick. All rights reserved.
+//
+
+#import "StanfordFlickrPhotosTableViewController.h"
+#import "FlickrFetcher.h"
+
+@implementation StanfordFlickrPhotosTableViewController
+
+
+@end
