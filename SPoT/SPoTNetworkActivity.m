@@ -26,7 +26,7 @@ static NSInteger currentActivitiesAccessingNetworkCount = 0;
 {
     @synchronized(self)
     {
-        currentActivitiesAccessingNetworkCount += count;
+        currentActivitiesAccessingNetworkCount += count ;
         currentActivitiesAccessingNetworkCount = (currentActivitiesAccessingNetworkCount < 0) ? 0 : currentActivitiesAccessingNetworkCount;
         [UIApplication sharedApplication].networkActivityIndicatorVisible = (currentActivitiesAccessingNetworkCount > 0);
     }
